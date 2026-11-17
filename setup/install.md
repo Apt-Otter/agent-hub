@@ -10,9 +10,9 @@ On Windows the Python command may be `py` instead of `python`. If so, read `py` 
 
 ## Steps
 
-1. Copy the whole `hub` folder to the PC, somewhere short such as `C:\hub`. Include the hidden `.claude` folder: it holds the ICM skill the hub was built with.
+1. Get the hub onto the PC, somewhere short such as `C:\hub`: clone the blank hub repository, or copy the folder. A copy must include the hidden `.claude` folder: it holds the ICM skill the hub was built with.
 2. In that folder, run `python -I _tools/links.py`. It should end with `0 broken`.
-3. Run `git init`, commit everything, and push it to a new private GitHub repository under Leon's account. The hub's history is its backup.
+3. Give this hub its own private GitHub repository under Leon's account, so his tasks and reports never go back to the blank one. If the folder was cloned, run `git remote remove origin` first. Then run `gh repo create hub --private --source . --push`. The hub's history is its backup.
 4. In Leon's Claude settings, connect Gmail.
 5. In Traycer, open the `hub` folder as the workspace and start a chat with: `Read AGENTS.md. You are the Master. Start with setup/questionnaire.md.`
 6. Answer the questionnaire with Leon. It ends with a test email: confirm it arrives.
