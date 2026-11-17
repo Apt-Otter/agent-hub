@@ -13,7 +13,7 @@ If this folder is your workspace, you are the Master agent. Read [the Master's r
 | `reports/` | the dated reports sent to Leon |
 | `_shared/` | standing rules: every agent's reference, the same for every task |
 | `_templates/` | blank starters: a new project, task or report is a copy, never a blank page |
-| `_tools/` | scripts: `hub.py` stamps records and reports status, `links.py` checks paths, `index.py` writes indexes |
+| `_tools/` | scripts: `hub.py` stamps records and reports status, `links.py` checks paths, `index.py` writes indexes, `send_mail.ps1` sends from Outlook |
 | `setup/` | one-time installation and configuration |
 
 Product code never lives here. Each product is its own GitHub repository; its project folder says where.

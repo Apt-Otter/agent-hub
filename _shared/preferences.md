@@ -7,6 +7,7 @@ A preference about one product belongs in that project's `CONTEXT.md`, not here.
 ## Reporting
 
 - Report email address: not set
+- Email method: not set
 - Daily report time: not set
 
 ## Working rules

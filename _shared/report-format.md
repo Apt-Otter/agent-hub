@@ -12,9 +12,9 @@ How the Master reports to Leon. He is technical and can read a diff, but the rep
 
 1. Copy `_templates/report.md` to `reports/YYYY-MM-DD.md` and fill it in. A second report on the same day replaces the first.
 2. Post the same text in the Traycer conversation.
-3. Email it to the address in [preferences](preferences.md) from Leon's own Gmail, using the Gmail connector. Subject: `Hub report YYYY-MM-DD: N done, N waiting on you`.
+3. Email it to the address in [preferences](preferences.md), from Leon's own Outlook account, by the email method recorded there. Subject: `Hub report YYYY-MM-DD: N done, N waiting on you`.
 
-If the Gmail connector is not available, say so in the Traycer post and under "Problems" in the report file. Never report an email as sent when it was not.
+If the email method is `none`, or the send fails, say so in the Traycer post and under "Problems" in the report file. Never report an email as sent when it was not.
 
 ## What goes in
 
